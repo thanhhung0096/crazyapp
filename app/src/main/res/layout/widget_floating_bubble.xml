@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/widget_floating-bubble-parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/widget_floating-bubble-1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="visible"-->
+    <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/img"/>-->
+    <!--</RelativeLayout>-->
+<!--</RelativeLayout>-->
+<de.hdodenhof.circleimageview.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="46dp"
+    android:layout_height="46dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:src="@drawable/ic_launcher_background_clone"
+    app:civ_border_width="1dp"
+    app:civ_border_color="#FF000000"
+    android:id="@+id/widget_floating_bubble"
+    />
