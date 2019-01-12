@@ -26,4 +26,5 @@
     app:civ_border_width="1dp"
     app:civ_border_color="#FF000000"
     android:id="@+id/widget_floating_bubble"
+    android:alpha=".75"
     />
